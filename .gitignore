@@ -1,0 +1,6 @@
+# idea filea
+.idea/
+*.iml
+
+# temp files
+out/
