@@ -7,7 +7,8 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Day01_Puzzle1.solvePuzzle();
-        Day01_Puzzle2.solvePuzzle();
+        // Day 01
+        new Day01_Puzzle1().solvePuzzle();
+        new Day01_Puzzle2().solvePuzzle();
     }
 }

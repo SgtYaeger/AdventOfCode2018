@@ -8,7 +8,7 @@ public final class Day01_Puzzle2 {
     /**
      * Find the first frequency that appears twice.
      */
-    public static void solvePuzzle() {
+    public void solvePuzzle() {
 
         Set<Integer> frequencies = new HashSet<>();
         int currentFrequency = 0;
@@ -32,7 +32,7 @@ public final class Day01_Puzzle2 {
             }
         }
 
-        System.out.println("Frequency: " + currentFrequency);
+        System.out.println("Day01 # Frequency: " + currentFrequency);
     }
 
 }

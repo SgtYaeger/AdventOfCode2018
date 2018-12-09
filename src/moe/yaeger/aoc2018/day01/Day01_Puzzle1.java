@@ -5,10 +5,10 @@ public final class Day01_Puzzle1 {
     /**
      * Just sum up all frequencies.
      */
-    public static void solvePuzzle() {
+    public void solvePuzzle() {
 
         int frequency = InputDay01.FREQ_CHANGES.stream().mapToInt(Integer::intValue).sum();
-        System.out.println("Frequency after applying all changes: " + frequency);
+        System.out.println("Day01 # Frequency after applying all changes: " + frequency);
     }
 
 
